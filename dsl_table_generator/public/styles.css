@@ -1,0 +1,26 @@
+/* public/styles.css */
+.fashionable-table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+.fashionable-table th, .fashionable-table td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #000;
+}
+
+.fashionable-table th {
+    background-color: #3498db;
+    color: black;
+    font-weight: bold;
+}
+
+.fashionable-table tr:hover {
+    background-color: #f0f0f0;
+}
